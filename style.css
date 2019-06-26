@@ -1,0 +1,53 @@
+label, input, textarea {
+	display: block;	
+
+}
+#header {
+	background-color: #66CCFF;
+	color: white;
+	text-align: center;
+	padding: 1px;
+}
+	body {
+    color: #333;
+    background-color:#f5f7f8;
+
+}#form {
+	 background-color:lightgray;
+	 border:500px lightgray;
+    padding: 0px;
+    width: 350px;
+     margin:0 auto;
+      float: center;
+    
+}
+#footer {
+	clear: both;
+	padding: 10px;
+	background-color: #999999;
+	color: lightgray;
+	text-align: center;
+}
+pre {
+    padding: 8px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap !important;
+    border: 2px solid #eee;
+        border-left-width: 2px;
+    border-left-width: 16px;
+    align-items: center;
+}
+
+h4{
+	color: auto;
+	text-align: center;
+	padding: 1px;
+}
+
+#search {
+	 border:500px lightgray;
+    padding: 0px;
+    width: 350px;
+     margin:0 auto;
+      float: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<div id="header" meta charset="utf-8">
+<head>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+   <script type="text/javascript" src="JS/jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="JS/scripts.js charset="utf-8></script>
+  <title> JQ-Contacts </title>
+</head>
+<body>
+  <h1> Contacts List</h1>
+</div>
+<div id="form">
+  <h4>Fill the form to add a new contact</h4>
+    <pre>
+        <label>First name:</label><input type="text" id ="first_name"required />
+        <label>Second name:</label><input type="text" id= "second_name"required />
+        <label>Phone number:</label><input type="text" id ="phone_number" required />
+        <label>Email:</label><input type="email" class="form-control" id="email" name="email" required>
+          <label> Address:</label><textarea id="address"name="Message"  maxlength="6000" required></textarea>
+
+          <!-- <button onclick= savecontact() >Save</button> -->
+          <input type= submit onclick ="saveContact()"/>
+          <!-- <input type="submit" name="onclick" save contact()> -->
+        </pre>
+          </div>
+        </div>
+<div id = "search"> 
+  <h3> Search Contact</h3>
+ <input type="text" id="search_phrase">
+<button type="submit" id="search-id" onclick="search_function()">Search</button>
+ <h2>Results</h2>
+ <p id = "result"></p>
+</div>
+<table style="width:80%" ></style>
+   <!--  <tr id="contact">
+        <th>First name</th>
+        <th>Second name</th>
+        <th>Phone_number</th>
+        <th>Email</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr> -->
+</table>
+  </pre>
+    <div id="footer">
+      Copyright &copy; 2019 Denis
+   </div>
+   </body>
+</html>
